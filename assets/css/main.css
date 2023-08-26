@@ -3326,3 +3326,49 @@ input, select, textarea {
 			}
 
 		}
+
+/* Styling pour la mise en page des tarifs */
+.tarif-container {
+	display: flex; /* Utilise le modèle flexbox */
+	justify-content: space-between; /* Espace équitablement les éléments */
+	flex-wrap: wrap; /* Permettra aux éléments de passer à la ligne si nécessaire */
+}
+
+.tarif {
+	width: calc(33.33% - 20px); /* Occupe un tiers de l'espace, en laissant un peu de marge */
+	padding: 20px;
+	border: 1px solid #585858; /* Couleur de la bordure */
+	background-color: #fff; /* Couleur d'arrière-plan */
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	transition: transform 0.3s ease-in-out; /* Animation de transition */
+}
+
+	.tarif:hover {
+		transform: scale(1.05); /* Zoom au survol */
+	}
+
+	/* Autres styles pour vos tarifs */
+	.tarif h2 {
+		margin-top: 0;
+		color: #585858; /* Couleur du titre */
+	}
+
+	.tarif h3 {
+		color: #f2849e; /* Couleur pour les prix */
+		font-size: 1.5em;
+		margin-top: 10px;
+	}
+
+	.tarif p {
+		color: #585858; /* Couleur du texte */
+	}
+
+	.tarif ul {
+		list-style-type: none;
+		padding-left: 0;
+	}
+
+	.tarif li {
+		margin-bottom: 5px;
+	}
