@@ -1,0 +1,22 @@
+# Domaines publicitaires / de suivi LG webOS à bloquer au niveau DNS
+# (Pi-hole, AdGuard Home, NextDNS, ou routeur qui accepte une liste de blocage).
+# Ne bloque PAS les mises à jour (snu.lge.com) ni le magasin d'applications.
+
+# --- Sûrs à bloquer : publicités LG ---
+lgsmartad.com
+ad.lgsmartad.com
+eu.ad.lgsmartad.com
+info.lgsmartad.com
+eu.info.lgsmartad.com
+lgad.cjpowercast.com
+ngfts.lge.com
+
+# --- Suivi (ACR / "Live Plus") ---
+eu.acrsmartcam.com
+acrsmartcam.com
+eu.lgtvsdp.com.alchemy.lge.com
+smartshare.lgtvsdp.com
+
+# --- Optionnel : recommandations "Tendances actuelles" ---
+# Peut vider certaines rangées de l'accueil LG. Débloquez si une appli pose problème.
+ibis.lgappstv.com
